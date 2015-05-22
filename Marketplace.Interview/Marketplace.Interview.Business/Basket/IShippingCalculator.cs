@@ -13,7 +13,6 @@ namespace Marketplace.Interview.Business.Basket
         {
             foreach (var lineItem in basket.LineItems)
             {
-                lineItem.ShippingAmount = lineItem.Shipping.GetAmount(lineItem, basket);
                 lineItem.ShippingDescription = lineItem.Shipping.GetDescription(lineItem, basket);
             }
 

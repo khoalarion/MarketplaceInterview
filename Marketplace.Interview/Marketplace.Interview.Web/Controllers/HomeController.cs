@@ -53,6 +53,7 @@ namespace Marketplace.Interview.Web.Controllers
                                    Shipping = shippingOptions[lineItemViewModel.ShippingOption],
                                    SupplierId = lineItemViewModel.SupplierId,
                                    DeliveryRegion = lineItemViewModel.DeliveryRegion,
+                                   ShippingAmount = lineItemViewModel.ShippingAmount
                                };
 
             _addToBasket.Invoke(new AddToBasketRequest() {LineItem = lineItem});

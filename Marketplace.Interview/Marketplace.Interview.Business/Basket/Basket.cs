@@ -20,6 +20,7 @@ namespace Marketplace.Interview.Business.Basket
         public string DeliveryRegion { get; set; }
         public int Id { get; set; }
 
+        public const decimal deductPrice = (decimal)0.5; 
         public decimal ShippingAmount { get; set; }
 
         public string ShippingDescription { get; set; }

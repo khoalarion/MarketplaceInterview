@@ -24,4 +24,23 @@
             </a:PerRegionCosts>
         </Value>
     </KeyValueOfstringShippingBaseLIZpudIg>
+  <KeyValueOfstringShippingBaseLIZpudIg>
+    <Key>FedEx</Key>
+    <Value i:type="a:FedExShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
+      <a:FedExCosts>
+        <a:RegionShippingCost>
+          <a:Amount>0.5</a:Amount>
+          <a:DestinationRegion>UK</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>1</a:Amount>
+          <a:DestinationRegion>Europe</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>2</a:Amount>
+          <a:DestinationRegion>RestOfTheWorld</a:DestinationRegion>
+        </a:RegionShippingCost>
+      </a:FedExCosts>    
+  </Value>
+  </KeyValueOfstringShippingBaseLIZpudIg>
 </ArrayOfKeyValueOfstringShippingBaseLIZpudIg>

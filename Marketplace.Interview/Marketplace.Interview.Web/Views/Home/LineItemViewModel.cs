@@ -7,5 +7,6 @@
         public int SupplierId { get; set; }
         public string ShippingOption { get; set; }
         public string DeliveryRegion { get; set; }
+        public decimal ShippingAmount { get; set; }
     }
 }
